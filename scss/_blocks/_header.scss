@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin: 50px auto 0px;
+  max-width: 1180px;
+  &__logo {
+    margin-top: 35px;
+    margin-right: 60px;
+    background: #7D97DA33;
+  }
+  &__menu {
+    margin: 50px auto 20px 0px;
+    a {
+      color: #1E0606;
+      margin-right: 20px;
+    }
+  }
+  &__list {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  &__icon {
+    margin-top: 30px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  &__search {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+
+  & a:hover {
+    opacity: 50%;
+  }
+  
+  & img:hover {
+    opacity: 50%;
+  }
+
+  & a:active {
+    opacity: 20%;
+  }
+  
+  & img:active {
+    opacity: 20%;
+  }
+}

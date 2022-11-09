@@ -1,0 +1,220 @@
+// ANIMATION 
+
+@keyframes cars {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes taxi {
+    0% {
+        right: -500px;
+        opacity: 1;
+    }
+
+    20%,
+    50% {
+        right: 25%;
+    }
+
+    100% {
+        right: 100%;
+        opacity: 1;
+    }
+}
+
+
+@keyframes male-hand {
+    0% {
+        opacity: 1;
+        transform: rotateZ(140deg);
+    }
+
+    40%,
+    90% {
+        transform: rotateZ(140deg);
+    }
+
+    50% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(140deg);
+        opacity: 1;
+    }
+}
+
+@keyframes message {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.animation {
+    min-height: 768px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.clouds {
+    margin: 0px auto 0px 50px;
+    width: 100%;
+    height: 135px;
+}
+
+.city {
+    margin-top: 0;
+    background: url('../img/animation/city.svg');
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 100%;
+}
+
+.cars {
+    position: relative;
+    top: 55%;
+    z-index: 0;
+}
+
+.cars img {
+    position: absolute;
+    left: -100%;
+    width: 15%;
+}
+
+.cars img:nth-child(1) {
+    animation: linear cars 10s infinite;
+}
+
+.cars img:nth-child(2) {
+    animation: linear cars 10s infinite;
+    animation-delay: 2s;
+}
+
+.cars img:nth-child(3) {
+    animation: linear cars 10s infinite;
+    animation-delay: 4s;
+}
+
+.cars img:nth-child(4) {
+    animation: linear cars 10s infinite;
+    animation-delay: 7s;
+}
+
+.taxi {
+    position: absolute;
+    width: 886px;
+    height: 265px;
+    right: 0;
+    bottom: 12%;
+    z-index: 7;
+    opacity: 0;
+    animation: taxi 11s ease 6s;
+}
+
+.lantern-1,
+.lantern-2 {
+    position: absolute;
+    height: 395px;
+    z-index: 2;
+}
+
+.lantern-1 {
+    width: 150px;
+    left: 29%;
+    top: 27%;
+}
+
+.lantern-2 {
+    width: 92px;
+    right: 0%;
+    top: 27%;
+}
+
+.lantern-3 {
+    position: absolute;
+    width: 214px;
+    height: 562px;
+    top: 21%;
+    right: 10%;
+    z-index: 10;
+}
+
+.woman {
+    position: absolute;
+    width: 97px;
+    height: 267px;
+    left: 9%;
+    bottom: 6%;
+    z-index: 8;
+}
+
+.baggage {
+    position: absolute;
+    width: 191px;
+    height: 95px;
+    left: 8%;
+    bottom: 6%;
+    z-index: 9;
+}
+
+.man {
+    position: absolute;
+    width: 204px;
+    height: 353px;
+    left: 17%;
+    bottom: 6%;
+    z-index: 10;
+}
+
+.male-hand {
+    position: absolute;
+    width: 89px;
+    height: 128px;
+    left: 19%;
+    bottom: 41%;
+    z-index: 8;
+    opacity: 0;
+    animation: male-hand 11s ease-in-out;
+    transform-origin: 13% 90%;
+}
+
+.message {
+    position: absolute;
+    z-index: 11;
+    opacity: 0;
+}
+
+.woman-message {
+    width: 161px;
+    bottom: 40%;
+    left: 2%;
+    animation: message 11s 3s;
+}
+
+.man-message {
+    width: 161px;
+    bottom: 51%;
+    left: 16%;
+    animation: message 11s 5s;
+}
+
+.taxi-message {
+    width: 161px;
+    bottom: 42%;
+    left: 32%;
+    animation: message 11s 8s;
+}

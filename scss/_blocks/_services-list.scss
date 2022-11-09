@@ -1,0 +1,88 @@
+/* CATEGORY PRODUCTS */
+
+.services {
+    margin-top: 90px;
+
+    & .services-list a {
+      color: #FFFFFF;
+      font-size: 26px;
+      line-height: 32px;
+    }
+
+    & a:hover {
+      text-decoration: underline;
+    }
+
+    & a:active {
+      text-decoration: underline;
+      cursor: none;
+    }
+  }
+  
+  .services-title {
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-bottom: 30px;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .services .services-list h3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .services-item {
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
+    display: flex;
+    text-transform: uppercase;
+    width: 280px;
+    height: 270px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    &:nth-child(1) {
+      background: #DBE4DB;
+      background-image: url(../img/t-shirt.png);
+      background-blend-mode: multiply;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    &:nth-child(2) {
+      background: #EADDD3;
+      background-image: url(../img/sock.png);
+      background-blend-mode: multiply;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    &:nth-child(3) {
+      background: #F8F2DA;
+      background-image: url(../img/deer.png);
+      background-blend-mode: multiply;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    &:nth-child(4) {
+      background: #D5D4E1;
+      background-image: url(../img/chupakabra.png);
+      background-blend-mode: multiply;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }

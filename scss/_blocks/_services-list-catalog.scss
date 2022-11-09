@@ -1,0 +1,100 @@
+.services-title-catalog {
+  font-family: 'Montserrat', 'Gill Sans', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #1E0606;
+}
+
+.services-list-catalog {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.services-item-catalog {
+  font-family: 'Montserrat', 'Gill Sans', sans-serif;
+  display: flex;
+  text-transform: uppercase;
+  width: 280px;
+  height: 270px;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 23px;
+
+  &:nth-child(1) {
+    background: #DBE4DB;
+    background-image: url(../img/t-shirt.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &:nth-child(2) {
+    background: #EADDD3;
+    background-image: url(../img/sock.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &:nth-child(3) {
+    background: #F8F2DA;
+    background-image: url(../img/deer.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &:nth-child(4) {
+    background: #D5D4E1;
+    background-image: url(../img/chupakabra.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+  }
+
+  &:nth-child(5) {
+    background: #F3D0DB;
+    background-image: url(../img/flamingo.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &:nth-child(6) {
+    background: #E5EAF8;
+    background-image: url(../img/dress.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.services-catalog .services-list-catalog a {
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.services-catalog .services-list-catalog h2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.services-catalog a:hover {
+  text-decoration: underline;
+}
+
+.services-catalog a:active {
+  text-decoration: underline;
+  cursor: none;
+}
